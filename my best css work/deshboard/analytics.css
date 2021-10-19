@@ -1,0 +1,144 @@
+.three-box-section {
+  /* height: 300px; */
+}
+.inner-box-section {
+  display: flex;
+  justify-content: space-between;
+}
+.leftside-box {
+  height: 164px;
+  width: 77%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(
+    92.02deg,
+    rgba(255, 255, 255, 0.85) 1.85%,
+    rgba(255, 255, 255, 0.85) 97.63%
+  );
+}
+.rigthside-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 21%;
+}
+
+.rightside-box1 {
+  width: 90%;
+  height: 80px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background: linear-gradient(
+    92.02deg,
+    rgba(255, 255, 255, 0.85) 1.85%,
+    rgba(255, 255, 255, 0.85) 97.63%
+  );
+}
+.rightside-box2 {
+  width: 90%;
+  border-radius: 15px;
+  height: 80px;
+  border: 2px solid black;
+  background: linear-gradient(
+    92.02deg,
+    rgba(255, 255, 255, 0.85) 1.85%,
+    rgba(255, 255, 255, 0.85) 97.63%
+  );
+}
+.analytics-content {
+  margin-top: 20px;
+}
+
+.inner-analytics-cont {
+  width: 98%;
+  height: 410px;
+  overflow-y: auto;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: linear-gradient(
+    92.02deg,
+    rgba(255, 255, 255, 0.85) 1.85%,
+    rgba(255, 255, 255, 0.85) 97.63%
+  );
+}
+
+.analytics-log {
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
+  margin-top: 16px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.analytics-log-img img {
+  height: 51px;
+  width: 51px;
+  /* margin-right: 10px; */
+  border-radius: 13px;
+}
+.active-log {
+  background-color: white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #5cdc00;
+  border-radius: 16px;
+  padding: 5px 16px;
+}
+.email-log {
+  font-size: 13px;
+  /* margin-right: 15px; */
+}
+.edit-and-delete {
+  display: flex;
+}
+.email-and-device {
+  display: flex;
+}
+.device-status {
+  /* margin-left: 15px; */
+}
+.w1 {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w2 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w3 {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w4 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w5 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.w6 {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.red {
+  color: red;
+}

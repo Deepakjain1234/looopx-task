@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}" />
+    <link rel="stylesheet" href="analytics.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="{% static 'css/analytics.css' %}" />
+    <script
+      src="https://kit.fontawesome.com/5ee2cb3094.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="userbox">
+        <div class="logo-details">
+          <div class="logo_name">Pass it</div>
+          <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <div class="user_img">
+          <div class="innerimg" style="height: 40px">
+            <img style="height: 60px" src="./user.png" />
+          </div>
+        </div>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links_name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Report</span>
+          </a>
+          <span class="tooltip">Files</span>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="links_name">Setting</span>
+          </a>
+          <span class="tooltip">Setting</span>
+        </li>
+        <li class="profile">
+          <i class="bx bx-log-out" id="log_out"></i>
+          <p>Logout</p>
+        </li>
+      </ul>
+      <div class="contactus-box">
+        <p>
+          Have any problems with manage your dashboard? Try to contact the
+          customer support
+        </p>
+        <button>Contact Us</button>
+      </div>
+    </div>
+    <section class="home-section">
+      <div class="dashboard-text">
+        <div class="headingdashleft">
+          <div class="left-text-div">
+            <h1>Hello Pratham</h1>
+            <h4>Welcome Back!</h4>
+          </div>
+
+          <div class="search-box">
+            <div class="inner-search-box">
+              <div class="search-icon"><i class="fas fa-search"></i></div>
+              <div class="seach-box-inner">
+                <input type="search" placeholder=" Hello " />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="headingdashright">
+          <div class="bellbox">
+            <i class="far fa-bell"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="three-box-section">
+        <div class="inner-box-section">
+          <div class="leftside-box"></div>
+          <div class="rigthside-box">
+            <div class="rightside-box1"></div>
+            <div class="rightside-box2"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="analytics-content">
+        <div class="inner-analytics-cont">
+          <div class="analytics-log">
+            <div class="w1"><h4>Company</h4></div>
+            <div class="w2"><h4>Email</h4></div>
+            <div class="w3"><h4>Device</h4></div>
+            <div class="w4"><h4>Status</h4></div>
+            <div class="w5">
+              <h4>Login</h4>
+              <h6>Date | Time</h6>
+            </div>
+            <div class="w6"><h4>Action</h4></div>
+          </div>
+
+          <div class="analytics-log">
+            <div class="analytics-log-img w1">
+              <img src="./netflex.png" />
+            </div>
+
+            <div class="email-log w2"><p>xyz123@gmail.com</p></div>
+            <div class="device-status w3"><p>andorid</p></div>
+
+            <div class="w4"><div class="active-log">Active</div></div>
+            <div class="w5">
+              <h6>16:00</h6>
+            </div>
+            <div class="edit-and-delete w6">
+              <p>Edit</p>
+              <p>|</p>
+              <p class="red">Delete</p>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+    <script src="{% static 'js/dashboard.js' %}"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
